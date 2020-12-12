@@ -1,0 +1,44 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.upper-left {
+    float: left;
+}
+
+.upper-right {
+    float: right;
+}
+
+.user-icon {
+    border-radius: 50%;
+}
+
+.search-logo {
+    margin:auto;
+    width: 50%;
+    padding-top: 200px;
+    text-align: center;
+   
+}
+
+
+.sbox {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.lower-left {
+   margin-top: 25%;
+   float: left;
+}
+
+.lower-right {
+    margin-top: 25%;
+   float: right;
+}
