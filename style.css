@@ -1,5 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 a {
@@ -7,38 +8,37 @@ a {
     color: black;
 }
 
-.upper-left {
-    float: left;
-}
+.navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+  }
 
-.upper-right {
-    float: right;
-}
+.logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8%;
+    }
 
-.user-icon {
-    border-radius: 50%;
-}
-
-.search-logo {
-    margin:auto;
+.main  {
+    margin: auto;
     width: 50%;
-    padding-top: 200px;
+    padding: 10px;
     text-align: center;
+  }
+
+.buttons {
+    padding-top: 20px;
    
 }
 
 
-.sbox {
-    width: 250px;
-    margin-bottom: 10px;
-}
-
-.lower-left {
-   margin-top: 25%;
-   float: left;
-}
-
-.lower-right {
-    margin-top: 25%;
-   float: right;
-}
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
